@@ -1,6 +1,6 @@
 
 1.times{
-	job('voting_deploy_aws.groovy'+it) {
+	job('voting-deploy-aws.groovy'+it) {
 	//ogRotator(int daysToKeep, int numToKeep)
     logRotator {
         numToKeep(15)
