@@ -21,7 +21,7 @@ job('temapary') {
   }
 
   steps {
-        shell('mvn clean install ')
+        maven('clean install ')
   }
 }
 
